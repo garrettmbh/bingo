@@ -45,7 +45,7 @@ $('#putBut').on('click', function() {
         alert(JSON.stringify(dataObject));
 
         $.ajax({
-            url: URL,
+            url: 'test.json',
             type: 'POST',    
             data: JSON.stringify(dataObject),
             contentType: 'application/json',
