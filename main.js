@@ -29,7 +29,7 @@ $('#btn').on('click', function() {
 	$.ajax({
 		type: 'GET',
 		//url: 'https://learnwebcode.github.io/json-example/animals-1.json',
-		url: '/test.json',
+		url: '/bingo/test.json',
 		success: function(animals) {
 			$.each(animals, function(i, animal) {
 				console.log(animal.name);
@@ -52,7 +52,7 @@ $('#putBut').on('click', function() {
         alert(JSON.stringify(dataObject));
 
         $.ajax({
-            url: '/test.json',
+            url: '/bingo/test.json',
             type: 'POST',    
             data: JSON.stringify(dataObject),
             contentType: 'application/json',
