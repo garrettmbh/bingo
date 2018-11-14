@@ -3,6 +3,8 @@
 var animalContainer = document.getElementById("animal-info");
 var btn = document.getElementById("btn");
 
+console.log("ready");
+
 /*
 btn.addEventListener("click", function() {
 	var testRequest = new XMLHttpRequest();
