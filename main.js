@@ -27,7 +27,7 @@ $('#btn').on('click', function() {
 	$.ajax({
 		type: 'GET',
 		//url: 'https://learnwebcode.github.io/json-example/animals-1.json',
-		url: '/test.json'
+		url: '/test.json',
 		success: function(animals) {
 			$.each(animals, function(i, animal) {
 				console.log(animal.name);
