@@ -3,6 +3,7 @@
 var animalContainer = document.getElementById("animal-info");
 var btn = document.getElementById("btn");
 
+/*
 btn.addEventListener("click", function() {
 	var testRequest = new XMLHttpRequest();
 	//testRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json');
@@ -14,15 +15,19 @@ btn.addEventListener("click", function() {
 	testRequest.send();
 });
 
+
 function renderHTML(data) {
 	animalContainer.insertAdjacentHTML('beforeend', 'testing 123');
 }
+
+*/
 
 $('#btn').on('click', function() {
 	
 	$.ajax({
 		type: 'GET',
-		url: 'https://learnwebcode.github.io/json-example/animals-1.json',
+		//url: 'https://learnwebcode.github.io/json-example/animals-1.json',
+		url: '/test.json'
 		success: function(animals) {
 			$.each(animals, function(i, animal) {
 				console.log(animal.name);
@@ -45,7 +50,7 @@ $('#putBut').on('click', function() {
         alert(JSON.stringify(dataObject));
 
         $.ajax({
-            url: 'test.json',
+            url: '/test.json',
             type: 'POST',    
             data: JSON.stringify(dataObject),
             contentType: 'application/json',
