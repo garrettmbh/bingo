@@ -1,58 +1,154 @@
-
-<!doctype html>
 <html>
-<head>
-    <title>Example Domain</title>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style type="text/css">
-    body {
-        background-color: #f0f0f2;
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        
-    }
-    div {
-        width: 600px;
-        margin: 5em auto;
-        padding: 50px;
-        background-color: #fff;
-        border-radius: 1em;
-    }
-    a:link, a:visited {
-        color: #38488f;
-        text-decoration: none;
-    }
-    @media (max-width: 700px) {
-        body {
-            background-color: #fff;
-        }
-        div {
-            width: auto;
-            margin: 0 auto;
-            border-radius: 0;
-            padding: 1em;
-        }
-    }
-    </style>    
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Cambay' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
+
+<title>Bingo</title>
+
+<link rel="stylesheet" type="text/css" href="bingo.css" />
+
 </head>
 
-<body>
-<div>
-    <h1>Example Domain</h1>
-    <p>This domain is established to be used for illustrative examples in documents. You may use this
-    domain in examples without prior coordination or asking for permission.</p>
-    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
-    <button id="btn">Click here!</button>
-	<button id="putBut">putBut</button>
-</div>
-<div id="animal-info"></div>
+<body onload="newCard(5)">
+	<div id="settingsContainer">
+		<div id="curtain"></div>
+		<div id="settings">
+			<h2>Settings</h2>
+			<table id="settingsTable">
+				<tr>
+					<td class="noselect marked" id="demoGoals"> Demo</td>
+				</tr>
+				<tr>
+					<td class="noselect marked" id="slideGoals"> Slides</td>
+				</tr>
+				<tr>
+					<td class="noselect marked" id="allSpeakGoals"> All Speak</td>
+				</tr>
+			</table>
+			
+			<table id="gameSelect">
+				<tr>
+					<td class="noselect" id="3x3"> 3x3</td>
+					<td class="noselect" id="4x4"> 4x4</td>
+					<td class="noselect marked" id="5x5"> 5x5</td>
+				</tr>
+			</table>
+			<table id="play">
+				<tr>
+					<td id="playButton" class="noselect"> Play</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="container">
+    <div id="header">
+      <h1>Conference Call Bingo</h1>
+    </div>
+
+	<div id="content5">
+		<table id="bingotable5">
+			<tr>
+				<td id="5square0" class="noselect"> &nbsp;</td>
+				<td id="5square1" class="noselect"> &nbsp;</td>
+				<td id="5square2" class="noselect"> &nbsp;</td>
+				<td id="5square3" class="noselect"> &nbsp;</td>
+				<td id="5square4" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="5square5" class="noselect"> &nbsp;</td>
+				<td id="5square6" class="noselect"> &nbsp;</td>
+				<td id="5square7" class="noselect"> &nbsp;</td>
+				<td id="5square8" class="noselect"> &nbsp;</td>
+				<td id="5square9" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="5square10" class="noselect"> &nbsp;</td>
+				<td id="5square11" class="noselect"> &nbsp;</td>
+				<td id="5square12" class="noselect"> &nbsp;</td>
+				<td id="5square13" class="noselect"> &nbsp;</td>
+				<td id="5square14" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="5square15" class="noselect"> &nbsp;</td>
+				<td id="5square16" class="noselect"> &nbsp;</td>
+				<td id="5square17" class="noselect"> &nbsp;</td>
+				<td id="5square18" class="noselect"> &nbsp;</td>
+				<td id="5square19" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="5square20" class="noselect"> &nbsp;</td>
+				<td id="5square21" class="noselect"> &nbsp;</td>
+				<td id="5square22" class="noselect"> &nbsp;</td>
+				<td id="5square23" class="noselect"> &nbsp;</td>
+				<td id="5square24" class="noselect"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="content4">
+		<table id="bingotable4">
+			<tr>
+				<td id="4square0" class="noselect"> &nbsp;</td>
+				<td id="4square1" class="noselect"> &nbsp;</td>
+				<td id="4square2" class="noselect"> &nbsp;</td>
+				<td id="4square3" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="4square4" class="noselect"> &nbsp;</td>
+				<td id="4square5" class="noselect"> &nbsp;</td>
+				<td id="4square6" class="noselect"> &nbsp;</td>
+				<td id="4square7" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="4square8" class="noselect"> &nbsp;</td>
+				<td id="4square9" class="noselect"> &nbsp;</td>
+				<td id="4square10" class="noselect"> &nbsp;</td>
+				<td id="4square11" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="4square12" class="noselect"> &nbsp;</td>
+				<td id="4square13" class="noselect"> &nbsp;</td>
+				<td id="4square14" class="noselect"> &nbsp;</td>
+				<td id="4square15" class="noselect"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="content3">
+		<table id="bingotable3">
+			<tr>
+				<td id="3square0" class="noselect"> &nbsp;</td>
+				<td id="3square1" class="noselect"> &nbsp;</td>
+				<td id="3square2" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="3square3" class="noselect"> &nbsp;</td>
+				<td id="3square4" class="noselect"> &nbsp;</td>
+				<td id="3square5" class="noselect"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="3square6" class="noselect"> &nbsp;</td>
+				<td id="3square7" class="noselect"> &nbsp;</td>
+				<td id="3square8" class="noselect"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div>
+		<table id="settingsButton">
+			<tr>
+				<td id="settingsButtonButton" class="noselect">Settings</td>
+			</tr>
+		</table>
+	</div>
+	
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="main.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bingo.js"></script>
+
 </body>
+
 </html>

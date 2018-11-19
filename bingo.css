@@ -1,0 +1,179 @@
+:root {
+    --color-1: #415F77;
+	--color-2: #D1E9EA;
+	--color-3: #FFD00C;
+	--color-4: #FC5050;
+}
+
+
+body {
+  background: var(--color-1);
+  position: relative;
+}
+
+h1, p {
+  font-family: 'Roboto', sans-serif; font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: var(--color-2);
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: var(--color-1);
+}
+
+#bingotable5 {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#bingotable4 {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#bingotable3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#gameSelect {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 180px;
+  height: 60px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#play {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 180px;
+  height: 60px;
+  border-collapse: collapse;
+  background: var(--color-1);
+}
+
+#play td {
+	color: var(--color-2);
+}
+
+
+#settingsButton {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 180px;
+  height: 60px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  width: 250px;
+  margin-top: -250px;
+  margin-left: -125px;
+  background: var(--color-3);
+  z-index: 999;
+  border: 3px solid black;
+}
+
+#settingsTable {
+  margin: 0 auto;
+  text-align: center;
+  width: 180px;
+  height: 150px;
+  border-collapse: collapse;
+  background: var(--color-2);
+}
+
+#curtain {
+  margin-top: -20px;
+  margin-left: -20px;
+  position: fixed;
+  height: 120%;
+  width: 120%;
+  background: #030404;
+  opacity: 0.6;
+  z-index: 100;
+}
+
+th, td {
+  font-family: 'Roboto', sans-serif; font-size: 12pt;
+  color: var(--color-1);
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+  height: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bingotable4 td {
+  font-size: 15pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 25%;
+  height: 25%;
+}
+
+#bingotable3 td {
+  font-size: 18pt;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 33%;
+  height: 33%;
+}
+
+.marked {
+	background-color: var(--color-4);
+}
+
+td:hover {
+	background-color: #cecece;
+}
+
+td.settingsTable:hover {
+	background-color: #cecece;
+}
+
+td.marked:hover {
+	background-color: var(--color-4);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
