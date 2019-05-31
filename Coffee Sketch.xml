@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coffee Sketch</name>
+    <description/>
+    <Style id="icon-1603-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Layer</name>
+      <Placemark>
+        <name>Page One Coffee + Bar</name>
+        <description>26</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.376254,43.657857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snap Coffee</name>
+        <description>25</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3778596,43.6601165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>De Mello Palheta Coffee Roasters</name>
+        <description>19 (11 by bus)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3991638,43.7118558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StrangeLove Coffee</name>
+        <description>16</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3897427,43.6784522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hailed Coffee - College Park</name>
+        <description>23</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.383798,43.658897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crosstown Coffee Bar</name>
+        <description>17 walking (9 by bus)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4071104,43.7045037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fahrenheit Coffee</name>
+        <description>28</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.372935,43.652409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piedmont Coffee Bar</name>
+        <description>21</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.382431,43.668383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Good Neighbour Espresso Bar</name>
+        <description>29</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4166591,43.6640795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praise Patisserie</name>
+        <description>29</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3907247,43.6500532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Havana Coffee Bar</name>
+        <description>14 by bus (23 by subway)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3968264,43.6745131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hestia (tea)</name>
+        <description>25</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3804412,43.6473313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haute Coffee</name>
+        <description>20 by bus (37 by subway)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.402737,43.675627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tokyo Smoke</name>
+        <description>29</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3839517,43.6502911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Moi</name>
+        <description>19</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3898585,43.67,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Istanbul Café & Espresso Bar]]></name>
+        <description>17 (25 walking)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3930787,43.7079436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MUJI Atrium</name>
+        <description>21</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3832909,43.6562198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Himalayan Coffee House</name>
+        <description>12 by bus (21 by subway)</description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4000562,43.713383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sweat & Soda]]></name>
+        <description>40</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3361063,43.6618283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffee Dak Lak</name>
+        <description>32</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4008805,43.6576762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Coffee Bar</name>
+        <description>37</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4231711,43.6754413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soul Chocolate</name>
+        <description>33</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3522354,43.6654172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hale Coffee Company</name>
+        <description>45</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.449994,43.665502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baddies</name>
+        <description>30</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4426778,43.6588132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Early Bird Coffee & Kitchen]]></name>
+        <description>40</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4025296,43.6473763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wallace Espresso</name>
+        <description>35</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4443119,43.6624621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Odin Cafe + Bar</name>
+        <description>39</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.35707,43.656484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tandem Coffee</name>
+        <description>36</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3618897,43.6536212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Voodoo Child Espresso & Cocktail Bar]]></name>
+        <description>32</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.405514,43.657071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bulldog Coffee</name>
+        <description>25</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.383795,43.650352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Cat Espresso Bar coffee shop cafe bar</name>
+        <description>37 (line 1, line 2, walk)</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4323479,43.6527052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Pebbles</name>
+        <description>38</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4000769,43.6549706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Black Canary Espresso Bar</name>
+        <description>31</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.36828,43.651919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hula Girl Espresso Boutique</name>
+        <description>36</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4537457,43.6597264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cops Toronto</name>
+        <description>41</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3989668,43.6457966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shy Coffee Co.</name>
+        <description>40</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4056344,43.6435313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dismount Bike Shop</name>
+        <description>33</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4352036,43.6800036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ella's Uncle]]></name>
+        <description>43</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4125794,43.6510771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coffee and Clothing</name>
+        <description>43</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3407936,43.6685254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Field Trip Cafe</name>
+        <description>34</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4303677,43.6613177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Nugget</name>
+        <description>37</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4065987,43.6520614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sam James Coffee Bar</name>
+        <description>35</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.415417,43.6602506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellwoods Coffee and Gelato</name>
+        <description>45</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4158693,43.6504845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[R & G Coffee]]></name>
+        <description>46  (43 by walking from Dufferin)</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4332365,43.6496361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Tori's Bakeshop]]></name>
+        <description>51</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.2904415,43.6722474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Bomb Coffee</name>
+        <description>48</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4470354,43.6414892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaxton</name>
+        <description>50</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3024211,43.7075592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alcove Coffee</name>
+        <description>52</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4638115,43.6689795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Louie Craft Coffee</name>
+        <description>51</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4255263,43.6391066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tucana Coffee</name>
+        <description>49 (43 by walking from Dufferin)</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.429098,43.6494373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bud's Coffee Bar]]></name>
+        <description>51</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3016677,43.6697902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Safehouse Coffee</name>
+        <description>50 (44 by walking from Dufferin)</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4353647,43.6497595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fix Coffee + Bikes</name>
+        <description>51</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4283625,43.6450154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>supercoffee</name>
+        <description>57</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4895142,43.6867705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Sydney Grind</name>
+        <description>65</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -79.503694,43.6009631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Visited</name>
+      <Placemark>
+        <name><![CDATA[Rustle & Still Café]]></name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4131014,43.664569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jimmy's Coffee]]></name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4006291,43.6452466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Versus Coffee</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.375334,43.651254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rooster Coffee House (Jarvis Street)</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.379906,43.669589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goldstruck Coffee</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.392258,43.6701416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mast Coffee</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3757862,43.6550551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Little Nicky's Coffee]]></name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3936292,43.6488758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mallo Coffee & Bar]]></name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4107376,43.6646307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sorry Coffee Co</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3917437,43.669797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krave Coffee</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4292679,43.6807528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Library Specialty Coffee</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3908424,43.6543249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outpost Coffee Roasters Ltd</name>
+        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4540863,43.6561163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Bear Espresso</name>
+        <description>19</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3815231,43.6612511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hopper coffee</name>
+        <description>32</description>
+        <styleUrl>#icon-1899-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4026617,43.6576921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FIKA Cafe</name>
+        <description>38</description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4004303,43.6535844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>No Seating</name>
+      <Placemark>
+        <name>Lion Coffee x Chocolat de Kat</name>
+        <description>32</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.433369,43.679821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Milky's Coffee]]></name>
+        <description>37</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4069076,43.6522833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NEO COFFEE BAR</name>
+        <description>30</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.369143,43.6507058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gloria Espresso Bar & Cafe]]></name>
+        <description>37</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4518095,43.6532549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Coffee Lab</name>
+        <description>37</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3956084,43.6476049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Home</name>
+      <Placemark>
+        <name>25 Lascelles Blvd</name>
+        <styleUrl>#icon-1603-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3992129,43.6959283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
